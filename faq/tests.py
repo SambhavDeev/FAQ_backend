@@ -1,3 +1,8 @@
 from django.test import TestCase
+from .models import FAQ
 
-# Create your tests here.
+class FAQModelTest(TestCase):
+    def test_translation(self):
+        faq = FAQ.objects.create(question="What is Django?", answer="Django is a web framework.")
+        self.assertIsNotNone(faq.question_hi)
+        self.assertIsNotNone(faq.question_bn)
