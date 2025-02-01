@@ -21,16 +21,16 @@ This project is a Django-based REST API for managing Frequently Asked Questions 
 
 ### Prerequisites
 
-Ensure you have the following installed:
+Before proceeding, ensure you have the following installed on your system:
 
-- Python 3.8+
-- Redis
-- Git
+- **Python**: Version 3.8 or higher. [Download Python](https://www.python.org/downloads/)
+- **Redis**: For caching translations. [Install Redis](https://redis.io/download)
+- **Git**: To clone the repository. [Install Git](https://git-scm.com/downloads)
 
 ### Step 1: Clone the Repository
 
 ```sh
-git clone https://github.com/SambhavDeev/FAQ_backend
+git clone https://github.com/SambhavDeev/FAQ_backend.git
 cd FAQ_backend
 ```
 
