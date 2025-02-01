@@ -30,8 +30,8 @@ Ensure you have the following installed:
 ### Step 1: Clone the Repository
 
 ```sh
-git clone <repository_url>
-cd django-multilingual-faq
+git clone https://github.com/SambhavDeev/FAQ_backend
+cd FAQ_backend
 ```
 
 ### Step 2: Create a Virtual Environment
